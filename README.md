@@ -10,3 +10,5 @@ There are some other implementation methods in the flowchart, if you are interes
 CMakeLists.txt是直接用工具生成的，所以可能有问题，源文件只使用了OpenCV的API，所以可以直接自己配置环境，用代码运行。<br>
 代码源码借鉴了《SLAM十四讲》，实现图片去畸变->特征点检测->特征点匹配->计算本质矩阵恢复相机位姿->三角测距。<br>
 流程图中有一些其他的实现方法，有兴趣可以自行尝试，目前的测距效果不太理想，之后再改进。
+
+![测距流程](测距算法.png)
